@@ -1,0 +1,85 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.basicWrapper{
+    background-color: #ccc;
+    padding:3em;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+         box-shadow: 0 10px 6px -6px #777;
+}
+
+.basicWrapper h1{
+    border-bottom: 2px #000 solid;
+    text-shadow: 
+        1px 0px 1px #ccc, 0px 1px 1px #eee, 
+        2px 1px 1px #ccc, 1px 2px 1px #eee,
+        3px 2px 1px #ccc, 2px 3px 1px #eee,
+        4px 3px 1px #ccc, 3px 4px 1px #eee,
+        5px 4px 1px #ccc, 4px 5px 1px #eee,
+        6px 5px 1px #ccc, 5px 6px 1px #eee,
+        7px 6px 1px #ccc;
+
+}
+
+.basicWrapper #styleSheet{
+    background-color: #ebe7e7;
+    padding: 4px;
+}
+
+.basicWrapper a{
+    color: #7D7D7D;
+}
+
+.basicWrapper a:visited{
+    color: purple;
+}
+
+.basicWrapper a:hover{
+    color: #000000;
+}
+
+.basicWrapper a:active{
+    color: blue;
+}
+
+#author{
+    border: 1px #000 dotted;
+    margin-top: 1em;
+    padding: 2em;
+}
+
+#comments {
+    background-color: #fff;
+    padding:2em;
+    margin-top: 1em;
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+#footer{
+    background-color: #000;
+    color: #fff;
+    padding: 2em;
+    margin-top: 1em;
+}
+#footer h2{
+    border-bottom: #fff 1px solid;
+}
+#email{
+    border-radius: 5px;
+    padding: 0.5em;
+}
+button{
+    border-radius: 5px;
+    padding: 0.5em;
+    background-color: #5bc0de;
+}
