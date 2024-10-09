@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between; /* W3Schools CSS justify-content demonstration. (n.d.). https://www.w3schools.com/cssref/playdemo.php?filename=playcss_justify-content */
+    align-items: center;
+    padding: 1em 1.25em; 
+    background-color: #333;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    margin: 0;
+    color: #fff;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    gap: 1.25em;
+    flex-wrap: wrap;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #ffffff; 
+    font-weight: bold;
+}
+
+
+main {
+    display: flex;
+    padding: 1.25em;
+    flex-wrap: wrap;
+}
+
+article {
+    flex: 3;
+    margin-right: 1.25em;
+    background-color: #fff;
+    padding: 1.25em; 
+    border-radius: 0.5em;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.1); 
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    margin: 1.25em 0; 
+}
+
+.content-flex {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    gap: 1.25em;
+    flex-wrap: wrap;
+}
+
+.content-flex img {
+    max-width: 30%; 
+    height: auto; 
+}
+
+.content-flex p {
+    flex: 1;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+aside {
+    flex: 1;
+    background-color: #fff;
+    padding: 1.25em; 
+    border-radius: 0.3125em;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.1);
+}
+
+aside h3 {
+    margin-top: 0;
+}
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside ul li {
+    margin-bottom: 0.1em;
+}
+
+
+.comment-form {
+    padding: 1.25em; 
+    background-color: #fff;
+    border-radius: 0.5em;
+    margin: 1.25em 0; 
+}
+
+.comment-form h3 {
+    margin-top: 0;
+}
+
+.comment-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-form label {
+    margin: 1em 0 0.5em 0; 
+}
+
+.comment-form input, .comment-form textarea {
+    padding: 1em; 
+    border: 1px solid #ddd;
+    border-radius: 0.5em; 
+}
+
+.comment-form button {
+    margin-top: 1em; 
+    padding: 1em; 
+    background-color: #24a0ed;
+    color: #fff;
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+.comment-form button:hover {
+    background-color: #555;
+}
+
+.newsletterForm button {
+    
+    padding: 0.5em;
+    background-color: #24a0ed;
+    color: #fff;
+    border: none;
+    border-radius: 0.5em; /* 5px border-radius converted to em */
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0; /* 10px padding converted to em */
+}
+
