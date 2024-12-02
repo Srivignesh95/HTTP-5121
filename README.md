@@ -4,7 +4,7 @@
 Introduction to HTML
 HTML (HyperText Markup Language) is a markup language used to define the structure of and to display the content of a web page. It essentially defines the content the browser should display. It is made up of elements which define what the content is (i.e. the meaning of the content). For example, everything within the <body> element is the body of the page.
 
-Each HTML element is formed with one or more tags with each tag enclosed within angle brackets (in the example above, "<body>"). Most tags need to be closed and will have a corresponding closing tag denoted by a slash (e.g. "</body>"). Elements should be properly nested or strange errors or behaviors can occur.
+Each HTML element is formed with one or more tags with each tag enclosed within angle brackets (in the example above, "```<body>```"). Most tags need to be closed and will have a corresponding closing tag denoted by a slash (e.g. "```</body>```"). Elements should be properly nested or strange errors or behaviors can occur.
 
 ### Example:
 ```
